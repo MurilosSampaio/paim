@@ -23,7 +23,7 @@ public class IdealLowPass_ extends PlugInFrame implements ActionListener {
 			return;
 		}
 		instance = this;
-		IJ.register(ButterLowPass_.class);
+		IJ.register(IdealLowPass_.class);
 
 		setLayout(new FlowLayout());
 		panel = new Panel();
